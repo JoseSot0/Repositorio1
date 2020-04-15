@@ -15,12 +15,12 @@ public class ActividadPruebas {
     public static void main(String[] args) { 
         
         
-    int[] numero = new int[10];
+    int[] numero = new int[15];
     
     Scanner p = new Scanner(System.in); 
     
     
-    for(int i=0;i<10;i++){
+    for(int i=0;i<15;i++){
         System.out.print("Introduzca Numero: "); 
         
            numero[i] = p.nextInt();
