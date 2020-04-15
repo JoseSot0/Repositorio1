@@ -15,15 +15,15 @@ public class ActividadPruebas {
     public static void main(String[] args) { 
         
         
-    int[] numero = new int[15];
+    int[] numero = new int[10];
     
-    Scanner p = new Scanner(System.in); 
+    Scanner a = new Scanner(System.in); 
     
     
-    for(int i=0;i<15;i++){
-        System.out.print("Introduzca Numero: "); 
+    for(int i=0;i<10;i++){
+        System.out.print("Mete los numeros: "); 
         
-           numero[i] = p.nextInt();
+           numero[i] = a.nextInt();
     }
 
    System.out.println("Los numeros son:\n" + Arrays.toString(numero));
